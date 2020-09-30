@@ -37,12 +37,15 @@ PM_START_TEXT = """
 
 𝕞𝕪 𝕤𝕦𝕡𝕡𝕠𝕣𝕥 𝕘𝕣𝕠𝕦𝕡 𝕚𝕤 @fateunion
 
+[saber's Repo](https://github.com/hyper-ub/saber) 
+
+
 ℍ𝕀𝕋 ℍ𝔼𝕃ℙ 𝔽𝕆ℝ ℂ𝕆𝕄𝕄𝔸ℕ𝔻 /help.
 
 """
-BOT_IMAGE = "https://telegra.ph/file/93612a540608640355f20.mp4"
 
-BOT_IMG = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
+
+
 
 HELP_STRINGS = """
 
