@@ -26,10 +26,6 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-![saber](https://telegra.ph/file/a306066dac39e1ec64663.jpg)
-
-
-
 ℍ𝕚 {}, 𝕄𝕐 ℕ𝔸𝕄𝔼 𝕀𝕊 {} !
 
 𝕀 𝔸𝕄 𝕊𝔸𝔹𝔼ℝ 𝕋ℍ𝔼 𝔸ℕ𝕀𝕄𝔼 𝕋ℍ𝔼𝕄𝔼𝔻 𝔾ℝ𝕆𝕌ℙ 𝕄𝔸𝕀ℕ𝕋𝔼ℕ𝔸ℕℂ𝔼 𝔹𝕆𝕋
@@ -38,9 +34,12 @@ PM_START_TEXT = """
 
 𝕀 ℍ𝕆ℙ𝔼 𝕀 𝕎𝕀𝕃𝕃 𝔸𝔹𝕃𝔼 𝕌 𝕋𝕆 𝕄𝔸𝕀ℕ𝕋𝔸𝕀ℕ 𝔾ℝ𝕆𝕌ℙ
 
+𝕞𝕪 𝕤𝕦𝕡𝕡𝕠𝕣𝕥 𝕘𝕣𝕠𝕦𝕡 𝕚𝕤 @fateunion
+
 ℍ𝕀𝕋 ℍ𝔼𝕃ℙ 𝔽𝕆ℝ ℂ𝕆𝕄𝕄𝔸ℕ𝔻 /help
 
 """
+SABER_IMG = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
 
 HELP_STRINGS = """
 
@@ -59,7 +58,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
-SABER_IMG = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
+
 
 IMPORTED = {}
 MIGRATEABLE = []
