@@ -83,7 +83,7 @@ def new_fed(bot: Bot, update: Update):
 
         x = sql.new_fed(user.id, fed_name, fed_id)
         if not x:
-            update.effective_message.reply_text("Failed to create federation! Head over to @AnonymousD3061 to notify us of the error.")
+            update.effective_message.reply_text("Failed to create federation! Head over to @fateunion to notify us of the error.")
             return
 
         update.effective_message.reply_text("*You have successfully created a new federation!*"\
