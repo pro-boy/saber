@@ -1,10 +1,10 @@
-![cruel](https://telegra.ph/file/a4eedfdc186e52507d3d0.jpg)
+![cruel](https://telegra.ph/file/a306066dac39e1ec64663.jpg)
 # saber bot
 
 its original fork from @saber_herobot
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyper-ub/saber)
-[![Run on Google Cloud](https://deploy.cloud.run/button.svg)](https://deploy.cloud.run)
+
 
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 Concept taken from [Saitama Robot](https://github.com/AnimeKaizoku/SaitamaRobot)
