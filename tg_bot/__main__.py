@@ -39,7 +39,9 @@ PM_START_TEXT = """
 ℍ𝕀𝕋 ℍ𝔼𝕃ℙ 𝔽𝕆ℝ ℂ𝕆𝕄𝕄𝔸ℕ𝔻 /help
 
 """
-SABER_IMG = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
+
+
+BOT_IMG = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
 
 HELP_STRINGS = """
 
