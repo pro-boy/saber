@@ -26,27 +26,15 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
+HI    {}, MY NAME IS {} !
 
+I AM  ANIME THEMED GROUP MANAGER BOT 
 
-┈┈┈┈╱▔▔▔▔╲┈┈┈┈
-┈┈┈▕▕╲┊┊╱▏▏┈┈┈
-┈┈┈▕▕▂╱╲▂▏▏┈┈┈
-┈┈┈┈╲┊┊┊┊╱┈┈┈┈
-┈┈┈┈▕╲▂▂╱▏┈┈┈┈
-╱▔▔▔▔┊┊┊┊▔▔▔▔╲
-HOI    {}, MY NAME IS {} !
+I AM SABER THE SWORD BASED HERO SUMMONED BY MY MASTER I SHALL HELP HIM TO WIN HOLY GRAIL WAR
 
-I AM A GROUP MANAGER BOT MAINTAINED BY 
-
-[THIS LEGEND](tg://user?id={}).
+I HOPE I WILL ABLE TO HELP U 
 
 HIT HELP FOR COMMANDS  /help
-
-I AM COMPLETELY OPEN SOURCE
-
-MY SOURCE CODE IS AVAILABLE TO YOU
-
-[HERE](https://github.com/leobrownlee/phantom)
 
 """
 
@@ -67,6 +55,7 @@ Hello! my name *{}*.
 And the following:
 """.format(dispatcher.bot.first_name, "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n")
 
+SABER_IMG = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
 
 IMPORTED = {}
 MIGRATEABLE = []
