@@ -188,7 +188,7 @@ You can use [nssm](https://nssm.cc/usage) to install the bot as service on windo
 Make sure to edit the start and restart bats to your needs. 
 Note: the restart bat requires that User account control be disabled.
 
-For queries or any issues regarding the bot please open an issue ticket or visit us at [Eagle Union](https://t.me/YorktownEagleUnion)
+For queries or any issues regarding the bot please open an issue ticket or visit us at [Fate Union](https://t.me/fateion)
 ## How to setup on Heroku 
 For starters click on this button
 
