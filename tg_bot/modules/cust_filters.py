@@ -241,7 +241,7 @@ def reply_filter(bot: Bot, update: Update):
                                          reply_markup=keyboard)
                     else:
                         message.reply_text("This note could not be sent, as it is incorrectly formatted. Ask in "
-                                           "@AnonymousD3061 if you can't figure out why!")
+                                           "@fateunion if you can't figure out why!")
                         LOGGER.warning("Message %s could not be parsed", str(filt.reply))
                         LOGGER.exception("Could not parse filter %s in chat %s", str(filt.keyword), str(chat.id))
 
