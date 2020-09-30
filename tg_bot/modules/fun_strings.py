@@ -202,14 +202,20 @@ ITEMS = (
 )
 
 THROW = (
-    "Car",
-    "Bat",
+    "throws",
+    "flings",
+    "chucks",
+    "hurls",
    
 )
 
 HIT = (
-    "Car",
-    "bat",
+   "hits",
+    "whacks",
+    "slaps",
+    "smacks",
+    "bashes",
+    "pats",
 
 )
 
