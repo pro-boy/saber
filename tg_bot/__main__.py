@@ -26,7 +26,6 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-"https://telegra.ph/file/a306066dac39e1ec64663.jpg"
 
 ℍ𝕚 {}, 𝕄𝕐 ℕ𝔸𝕄𝔼 𝕀𝕊 {} !
 
@@ -40,6 +39,7 @@ PM_START_TEXT = """
 
 ℍ𝕀𝕋 ℍ𝔼𝕃ℙ 𝔽𝕆ℝ ℂ𝕆𝕄𝕄𝔸ℕ𝔻 /help
 
+![cruel](https://telegra.ph/file/a306066dac39e1ec64663.jpg
 """
 
 
