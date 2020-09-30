@@ -26,15 +26,19 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
-HI    {}, MY NAME IS {} !
+![saber](https://telegra.ph/file/a306066dac39e1ec64663.jpg)
 
-I AM  ANIME THEMED GROUP MANAGER BOT 
 
-I AM SABER THE SWORD  HERO ONE OF SUMMONED HERO BY MY MASTER I SHALL HELP HIM TO WIN HOLY GRAIL WAR
 
-I HOPE I WILL ABLE TO HELP U 
+ℍ𝕚 {}, 𝕄𝕐 ℕ𝔸𝕄𝔼 𝕀𝕊 {} !
 
-HIT HELP FOR COMMANDS  /help
+𝕀 𝔸𝕄 𝕊𝔸𝔹𝔼ℝ 𝕋ℍ𝔼 𝔸ℕ𝕀𝕄𝔼 𝕋ℍ𝔼𝕄𝔼𝔻 𝔾ℝ𝕆𝕌ℙ 𝕄𝔸𝕀ℕ𝕋𝔼ℕ𝔸ℕℂ𝔼 𝔹𝕆𝕋
+
+𝓘 𝓪𝓶 𝓽𝓱𝓮 𝓼𝔀𝓸𝓻𝓭 𝓱𝓮𝓻𝓸  𝓸𝓷𝓮 𝓸𝓯 𝓽𝓱𝓮 𝓗𝓮𝓻𝓸 𝓸𝓯 𝓱𝓸𝓵𝔂 𝓰𝓻𝓪𝓲𝓵 𝔀𝓪𝓻 𝓘 𝓪𝓶 𝓼𝓾𝓶𝓶𝓸𝓷𝓮𝓭 𝓫𝔂 𝓶𝔂 𝓶𝓪𝓼𝓽𝓮𝓻 𝓽𝓸 𝓱𝓮𝓵𝓹 𝓱𝓲𝓶
+
+𝕀 ℍ𝕆ℙ𝔼 𝕀 𝕎𝕀𝕃𝕃 𝔸𝔹𝕃𝔼 𝕌 𝕋𝕆 𝕄𝔸𝕀ℕ𝕋𝔸𝕀ℕ 𝔾ℝ𝕆𝕌ℙ
+
+ℍ𝕀𝕋 ℍ𝔼𝕃ℙ 𝔽𝕆ℝ ℂ𝕆𝕄𝕄𝔸ℕ𝔻 /help
 
 """
 
