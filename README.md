@@ -9,9 +9,9 @@ its original fork from @saber_herobot
 A modular telegram Python bot running on python3 with an sqlalchemy database.
 Concept taken from [Saitama Robot](https://github.com/AnimeKaizoku/SaitamaRobot)
 
-Originally a marie fork - Marina has evolved further and was built to be more useful for Anime Chats. 
+Originally a marie fork - saber has evolved further and was built to be more useful for Anime Chats. 
 
-Can be found on telegram as [Marina](https://t.me/saber_herobot).
+Can be found on telegram as [saber](https://t.me/saber_herobot).
 
 The Support group can be reached out to at [fate union](https://t.me/fateunion), where you can ask for help setting up your bot, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
