@@ -26,6 +26,8 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 
 PM_START_TEXT = """
+"https://telegra.ph/file/a306066dac39e1ec64663.jpg"
+
 ℍ𝕚 {}, 𝕄𝕐 ℕ𝔸𝕄𝔼 𝕀𝕊 {} !
 
 𝕀 𝔸𝕄 𝕊𝔸𝔹𝔼ℝ 𝕋ℍ𝔼 𝔸ℕ𝕀𝕄𝔼 𝕋ℍ𝔼𝕄𝔼𝔻 𝔾ℝ𝕆𝕌ℙ 𝕄𝔸𝕀ℕ𝕋𝔼ℕ𝔸ℕℂ𝔼 𝔹𝕆𝕋
