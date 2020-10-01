@@ -41,10 +41,10 @@ PM_START_TEXT = """
 
 """
 
-BOT_IMG = 
+BOT_IMG = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
 
 
-HELP_STRINGS = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
+HELP_STRINGS = """
 
 Hello! my name *{}*.
 
