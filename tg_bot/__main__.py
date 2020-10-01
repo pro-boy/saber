@@ -37,17 +37,14 @@ PM_START_TEXT = """
 
 𝕞𝕪 𝕤𝕦𝕡𝕡𝕠𝕣𝕥 𝕘𝕣𝕠𝕦𝕡 𝕚𝕤 @fateunion
 
-[saber's Repo](https://github.com/hyper-ub/saber) 
-
-
 ℍ𝕀𝕋 ℍ𝔼𝕃ℙ 𝔽𝕆ℝ ℂ𝕆𝕄𝕄𝔸ℕ𝔻 /help.
 
 """
 
+BOT_IMG = 
 
 
-
-HELP_STRINGS = """
+HELP_STRINGS = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
 
 Hello! my name *{}*.
 
@@ -152,14 +149,15 @@ def start(bot: Bot, update: Update, args: List[str]):
 
         else:
             first_name = update.effective_user.first_name
-            update.effective_message.reply_text(
+            update.effective_message.reply_photo(
+                BOT_IMG,
                 PM_START_TEXT.format(escape_markdown(first_name), escape_markdown(bot.first_name), OWNER_ID),
-                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="ADD ME TO YOUR GROUP",
+                parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton(text="CLICK HERE TO SUMMON ME ",
                                                                        url="t.me/{}?startgroup=true".format(bot.username))]]))
 
 
     else:
-        update.effective_message.reply_text("Yo, whadup?🤧")
+        update.effective_message.reply_text("HI, Why u summoned me")
 
 
 def send_start(bot, update):
