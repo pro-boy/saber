@@ -41,7 +41,7 @@ PM_START_TEXT = """
 
 """
 
-BOT_IMG = "https://telegra.ph/file/a306066dac39e1ec64663.jpg"
+BOT_IMG = "https://telegra.ph/file/10cc43e697dec365f0775.jpg"
 
 
 HELP_STRINGS = """
