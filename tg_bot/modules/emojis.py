@@ -34,7 +34,7 @@ EDIT_TIMES = 9
 #sleep how many times after each edit in 'hack' 
 EDIT_SLEEP = 1
 #edit how many times in 'hack' 
-EDIT_TIMES = 10
+EDIT_TIMES = 7
 
 
 
@@ -86,6 +86,7 @@ kill_you = [
             "------>;(^。^)ノ",
             "(￣ー￣) DED",
             "**Target killed successfully"
+             
 ]
 
 
@@ -126,7 +127,11 @@ love_siren = [
 
 
 hack_you = [
+            "Starting program",
             "Looking for WhatsApp databases in targeted person...",
+            "Now looking for telegram account loophole...",
+            "Trying to connect servers",
+            "Connected........",
             " User online: True\nTelegram access: True\nRead Storage: True ",
             "Hacking... 20.63%\n[███░░░░░░░░░░░░░░░░░]",    
             "Hacking... 86.21%\n[███████████████░░░░░]",
@@ -338,7 +343,7 @@ def kill(bot: Bot, update: Update):
     for x in range(EDIT_TIMES):
         msg.edit_text(kill_you[x%12])
         time.sleep(EDIT_SLEEP)
-    msg.edit_text('⚰')
+    msg.edit_text('☠️we will never miss u ☠️')
 
 
 
