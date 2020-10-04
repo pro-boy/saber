@@ -1,7 +1,7 @@
 ![cruel](https://telegra.ph/file/a306066dac39e1ec64663.jpg)
 # saber bot
 
-its original fork from @saber_herobot
+its original fork from phantom bot
 
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyper-ub/saber)
 
