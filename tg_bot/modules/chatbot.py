@@ -93,6 +93,8 @@ __help__ = """
 
 Powered by CoffeeHouse (https://coffeehouse.intellivoid.net/) from @Intellivoid
 
+If u wanna enable chat bot in group group contact in @fateunion
+
  - /addchat : Enables Chatbot mode in the chat.
  - /rmchat  : Disables Chatbot mode in the chat.
 """
