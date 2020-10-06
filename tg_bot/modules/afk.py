@@ -35,8 +35,6 @@ def no_longer_afk(bot: Bot, update: Update):
         options = [
             '{} is here!',
             '{} is back!',
-            '{} is now in the chat!',
-            '{} is awake!',
             '{} is back online!',
             '{} is finally here!',
             'Welcome back!, {}',
