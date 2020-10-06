@@ -34,7 +34,7 @@ EDIT_TIMES = 9
 #sleep how many times after each edit in 'hack' 
 EDIT_SLEEP = 1
 #edit how many times in 'hack' 
-EDIT_TIMES = 15
+EDIT_TIMES = 10
 
 
 
@@ -86,7 +86,6 @@ kill_you = [
             "------>;(^。^)ノ",
             "(￣ー￣) DED",
             "**Target killed successfully"
-             
 ]
 
 
@@ -127,7 +126,6 @@ love_siren = [
 
 
 hack_you = [
-            
             "Looking for WhatsApp databases in targeted person...",
             " User online: True\nTelegram access: True\nRead Storage: True ",
             "Hacking... 20.63%\n[███░░░░░░░░░░░░░░░░░]",    
@@ -312,7 +310,7 @@ def hack(bot: Bot, update: Update):
     for x in range(EDIT_TIMES):
         msg.edit_text(hack_you[x%5])
         time.sleep(EDIT_SLEEP)
-    msg.edit_text('successful hacked,pay 200$ to remove this hack')
+    msg.edit_text('successful hacked')
 
 
 
@@ -328,7 +326,7 @@ def love(bot: Bot, update: Update):
     for x in range(EDIT_TIMES):
         msg.edit_text(love_siren[x%5])
         time.sleep(EDIT_SLEEP)
-    msg.edit_text('my love🥺🥺 ')
+    msg.edit_text('Love  😂 ')
 
 
 
@@ -340,7 +338,7 @@ def kill(bot: Bot, update: Update):
     for x in range(EDIT_TIMES):
         msg.edit_text(kill_you[x%12])
         time.sleep(EDIT_SLEEP)
-    msg.edit_text('☠️we will never miss u ☠️')
+    msg.edit_text('⚰')
 
 
 
