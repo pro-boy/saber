@@ -5,8 +5,8 @@ import textwrap
 import bs4
 import jikanpy
 import requests
-from SaitamaRobot import DEV_USERS, OWNER_ID, SUDO_USERS, dispatcher
-from SaitamaRobot.modules.disable import DisableAbleCommandHandler
+from tg_bot import DEV_USERS, OWNER_ID, SUDO_USERS, dispatcher
+from tg_bot.modules.disable import DisableAbleCommandHandler
 from telegram import (InlineKeyboardButton, InlineKeyboardMarkup, ParseMode,
                       Update)
 from telegram.ext import CallbackContext, CallbackQueryHandler, run_async
