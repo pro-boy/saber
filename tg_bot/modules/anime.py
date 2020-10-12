@@ -216,8 +216,8 @@ def anime(update: Update, context: CallbackContext):
         if trailer:
             trailer_id = trailer.get('id', None)
             site = trailer.get('site', None)
-        if site == "youtube":
-             trailer = 'https://youtu.be/' + trailer_id
+            if site == "youtube":
+                trailer = 'https://youtu.be/' + trailer_id
         description = json.get('description', 'N/A').replace('<i>', '').replace(
             '</i>', '').replace('<br>', '')
         msg += shorten(description, info)
@@ -342,8 +342,8 @@ def manga(update: Update, context: CallbackContext):
                     msg,
                     parse_mode=ParseMode.MARKDOWN,
                     reply_markup=InlineKeyboardMarkup(buttons))
-            else:
-                update.effective_message.reply_text(
+        else:
+            update.effective_message.reply_text(
                 msg,
                 parse_mode=ParseMode.MARKDOWN,
                 reply_markup=InlineKeyboardMarkup(buttons))
@@ -407,13 +407,11 @@ def user(update: Update, context: CallbackContext):
 
     caption += textwrap.dedent(f"""
     *Username*: [{user['username']}]({user['url']})
-
     *Gender*: `{user['gender']}`
     *Birthday*: `{user_birthday_formatted}`
     *Joined*: `{user_joined_date_formatted}`
     *Days wasted watching anime*: `{user['anime_stats']['days_watched']}`
     *Days wasted reading manga*: `{user['manga_stats']['days_read']}`
-
     """)
 
     caption += f"*About*: {about_string}"
@@ -556,9 +554,7 @@ def kayo(update: Update, context: CallbackContext):
 
 __help__ = """
 Get information about anime, manga or characters from [AniList](anilist.co).
-
 *Available commands:*
-
  • `/anime <anime>`*:* returns information about the anime.
  • `/character <character>`*:* returns information about the character.
  • `/manga <manga>`*:* returns information about the manga.
@@ -567,7 +563,6 @@ Get information about anime, manga or characters from [AniList](anilist.co).
  • `/kaizoku <anime>`*:* search an anime on animekaizoku.com
  • `/kayo <anime>`*:* search an anime on animekayo.com
  • `/airing <anime>`*:* returns anime airing info.
-
  """
 
 ANIME_HANDLER = DisableAbleCommandHandler("anime", anime)
