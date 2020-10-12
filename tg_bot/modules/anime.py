@@ -216,8 +216,8 @@ def anime(update: Update, context: CallbackContext):
         if trailer:
             trailer_id = trailer.get('id', None)
             site = trailer.get('site', None)
-            if site == "youtube":
-                trailer = 'https://youtu.be/' + trailer_id
+        if site == "youtube":
+             trailer = 'https://youtu.be/' + trailer_id
         description = json.get('description', 'N/A').replace('<i>', '').replace(
             '</i>', '').replace('<br>', '')
         msg += shorten(description, info)
