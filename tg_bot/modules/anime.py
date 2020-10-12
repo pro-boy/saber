@@ -342,7 +342,7 @@ def manga(update: Update, context: CallbackContext):
                     msg,
                     parse_mode=ParseMode.MARKDOWN,
                     reply_markup=InlineKeyboardMarkup(buttons))
-        else:
+            else:
             update.effective_message.reply_text(
                 msg,
                 parse_mode=ParseMode.MARKDOWN,
