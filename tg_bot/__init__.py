@@ -76,6 +76,7 @@ if ENV:
     CASH_API_KEY = os.environ.get('CASH_API_KEY', None)
     TIME_API_KEY = os.environ.get('TIME_API_KEY', None)
     API_WEATHER  = os.environ.get('API_OPENWEATHER',False)
+    spamwatch_api = os.environ.get("sw_api", None)
     AI_API_KEY = os.environ.get('AI_API_KEY', None)
     WALL_API = os.environ.get('WALL_API', None)
     STRICT_GMUTE = bool(os.environ.get('STRICT_GMUTE', False))
