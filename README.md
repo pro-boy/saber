@@ -3,7 +3,7 @@
 
 its original fork from phantom bot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyper-ub/saber)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/hyper-ub/saber/beta)
 
 
 A modular telegram Python bot running on python3 with an sqlalchemy database.
