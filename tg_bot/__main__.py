@@ -35,13 +35,13 @@ I am saber anime themed bot
 
 I HOPE I WILL ABLE TO MAINTAIN YOUR GROUP
 
-MY SUPPORT GROUP IS @fateunion
+MY SUPPORT GROUP IS @beast_army
 
 HIT HELP FOR COMMAND /help.
 
 """
 
-BOT_IMG = "https://telegra.ph/file/10cc43e697dec365f0775.jpg"
+BOT_IMG = "https://telegra.ph/file/9e3350062077a02a5a32f.jpg"
 
 
 HELP_STRINGS = """
