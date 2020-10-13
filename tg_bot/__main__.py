@@ -35,7 +35,7 @@ I am saber anime themed bot
 
 I HOPE I WILL ABLE TO MAINTAIN YOUR GROUP
 
-MY SUPPORT GROUP IS@fateunion
+MY SUPPORT GROUP IS @fateunion
 
 HIT HELP FOR COMMAND /help.
 
