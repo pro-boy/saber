@@ -19,6 +19,7 @@ googletrans
 jikanpy
 speedtest-cli
 coffeehouse
+spamwatch
 tswift
 gTTS
 wikipedia
