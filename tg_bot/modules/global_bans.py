@@ -91,7 +91,7 @@ def gban(bot: Bot, update: Update, args: List[str]):
 
         return
 
-    message.reply_text("⚡️ *Snaps the Banhammer* ⚡️")
+    message.reply_text("⚡️ *Trying to gban user across all chats* ⚡️")
 
     banner = update.effective_user  # type: Optional[User]
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS,
@@ -130,9 +130,9 @@ def gban(bot: Bot, update: Update, args: List[str]):
             pass
 
     send_to_list(bot, SUDO_USERS + SUPPORT_USERS, 
-                  "{} has been successfully gbanned!".format(mention_html(user_chat.id, user_chat.first_name)),
+                  "{} has been gbanned across all chats!".format(mention_html(user_chat.id, user_chat.first_name)),
                 html=True)
-    message.reply_text("Person has been gbanned.")
+    message.reply_text("Person has been gbanned across all chats.")
 
 
 @run_async
