@@ -151,15 +151,6 @@ DEV_USERS.add(123)
 DEV_USERS.add(123)
 DEV_USERS.add(123)
 
-
-
-
-
-   
-   
-
-
-
 updater = tg.Updater(TOKEN, workers=WORKERS)
 dispatcher = updater.dispatcher
 
