@@ -222,9 +222,9 @@ def gbanlist(bot: Bot, update: Update):
 
 
 def check_and_ban(update, user_id, should_message=True):
+
      chat = update.effective_chat  # type: Optional[Chat]
     sw_ban = sw.get_ban(int(user_id))
-
     if sw_ban:
         update.effective_chat.kick_member(user_id)
         if should_message:
