@@ -89,6 +89,11 @@ def new_member(bot: Bot, update: Update, job_queue: JobQueue):
         should_mute = True
         welcome_bool = True
 
+        if sw != None:
+                sw_ban = sw.get_ban(new_mem.id)
+                if sw_ban:
+                    return
+        
         if should_welc:
 
             # Give the owner a special welcome
